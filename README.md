@@ -9,13 +9,13 @@ Siga estas etapas para executar o aplicativo localmente:
 1. Clone o repositório em sua máquina local.
 
     ```bash
-    git clone https://github.com/itsvijaysingh/Discord-Lookup-API.git
+    git clone https://github.com/Nickz1n/Discord-API.git
     ```
 
 2. Navegue até o diretório do projeto.
 
     ```bash
-    cd Discord-Lookup-API
+    cd Discord-API
     ```
 
 3. Instale as dependências necessárias.
