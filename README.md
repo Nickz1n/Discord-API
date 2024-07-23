@@ -5,7 +5,7 @@ Um aplicativo Node.js leve para obter informações detalhadas sobre usuários d
 Siga estas etapas para executar o aplicativo localmente:
   1. Clone o repositório em sua máquina local:
 
-    ` git clone https://github.com/Nickz1n/Discord-API.git `
+     git clone https://github.com/Nickz1n/Discord-API.git 
      
   2. Navegue até o diretório do projeto:
 
