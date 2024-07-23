@@ -5,9 +5,7 @@ Um aplicativo Node.js leve para obter informações detalhadas sobre usuários d
 Siga estas etapas para executar o aplicativo localmente:
   1. Clone o repositório em sua máquina local:
 
-    ```bash 
-git clone https://github.com/Nickz1n/Discord-API.git
-```
+    `git clone https://github.com/Nickz1n/Discord-API.git`
      
   2. Navegue até o diretório do projeto:
 
@@ -19,6 +17,4 @@ git clone https://github.com/Nickz1n/Discord-API.git
   
   4. Abra o arquivo `api.js` e certifique-se de que a variável `DISCORD_BOT_TOKEN` esteja definida. Você pode obter um token da aplicação//bot Discord criando um novo, ou resgatando um já existente no [Portal do Desenvolvedor](https://discord.com/developers/applications):
 
-    ```javascript 
-const DISCORD_BOT_TOKEN = process.env.DISCORD_BOT_TOKEN || 'your-bot-token-here';
-```
+    `const DISCORD_BOT_TOKEN = process.env.DISCORD_BOT_TOKEN || 'your-bot-token-here';`
