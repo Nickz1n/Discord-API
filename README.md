@@ -1,60 +1,60 @@
-# Discord User Info API
+# Discord User Info API 
 
-This Node.js application serves as a simple API for retrieving extended information about Discord users. It utilizes the Discord API to fetch user data and processes it to provide additional details. The API exposes an endpoint to retrieve user information based on their Discord user ID.
+Este aplicativo Node.js serve como uma API simples para recuperar informações estendidas sobre usuários do Discord. Ele utiliza a API Discord para buscar dados do usuário e processá-los para fornecer detalhes adicionais. A API expõe um endpoint para recuperar informações do usuário com base em seu ID de usuário Discord.
 
-## How to Run
+## Como Rodar
 
-Follow these steps to run the application locally:
+Siga estas etapas para executar o aplicativo localmente:
 
-1. Clone the repository to your local machine.
+1. Clone o repositório em sua máquina local.
 
     ```bash
     git clone https://github.com/itsvijaysingh/Discord-Lookup-API.git
     ```
 
-2. Navigate to the project directory.
+2. Navegue até o diretório do projeto.
 
     ```bash
     cd Discord-Lookup-API
     ```
 
-3. Install the required dependencies.
+3. Instale as dependências necessárias.
 
     ```bash
     npm install
     ```
 
-4. Open the `api.js` file and ensure the `DISCORD_BOT_TOKEN` variable is set. You can obtain a Discord bot token by creating a new bot on the [Discord Developer Portal](https://discord.com/developers/applications).
+4. Abra o arquivo `api.js` e certifique-se de que a variável `DISCORD_BOT_TOKEN` esteja definida. Você pode obter um token de bot Discord criando um novo bot no [Discord Developer Portal](https://discord.com/developers/applications).
 
     ```javascript
     const DISCORD_BOT_TOKEN = process.env.DISCORD_BOT_TOKEN || 'your-bot-token-here';
     ```
 
-5. Save the changes.
+5. Salve as alterações.
 
-6. Run the application.
+6. Execute o aplicativo.
 
     ```bash
     node api.js
     ```
 
-7. The server will start running on `http://localhost:3000`. You can now make requests to the API.
+7. O servidor começará a rodar em `http://localhost:3000`. Agora você pode fazer solicitações à API.
 
 ## API Endpoint
 
-- **GET /api/user/:id**: Retrieve extended information about a Discord user based on their user ID.
+- **GET /api/user/:id**: Recuperar informações estendidas sobre um usuário Discord com base em seu ID de usuário.
 
-    Example: `http://localhost:3000/api/user/123456789012345678`
+    Exemplo: `http://localhost:3000/api/user/651122734251900940`
 
-    Replace `123456789012345678` with the actual Discord user ID.
+    Substituir `651122734251900940` com o seu ID de usuário real do Discord.
 
-    The response will include details such as username, discriminator, avatar, banner, user flags, Nitro type, creation date, and more.
+    A resposta incluirá detalhes como nome de usuário, discriminador, avatar, banner, tipo de Nitro, data de criação e muito mais.
 
-## Dependencies
+## Dependências
 
-- [Express](https://expressjs.com/): A web application framework for Node.js.
-- [Cors](https://www.npmjs.com/package/cors): Middleware for enabling Cross-Origin Resource Sharing.
+- [Express](https://expressjs.com/): Uma estrutura de aplicativo da web para Node.js.
+- [Cors](https://www.npmjs.com/package/cors): Middleware para permitir o compartilhamento de recursos entre origens.
 
-**Note:** Ensure that Node.js is installed on your machine before running the application.
+**Note:** Certifique-se de que o `Node.js` esteja instalado em sua máquina antes de executar o aplicativo.
 
-Feel free to customize and extend the application according to your needs. If you encounter any issues or have questions, please refer to the [Discord API documentation](https://discord.com/developers/docs/intro) for assistance.
+Sinta-se à vontade para personalizar e ampliar o aplicativo de acordo com suas necessidades. Se você encontrar algum problema ou tiver dúvidas, consulte a [documentação da API Discord](https://discord.com/developers/docs/intro) para obter assistência.
